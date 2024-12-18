@@ -7,6 +7,10 @@ print("请输入要输出列数")
 n = int(input())
 
 for i in range(1,n+1):
-    print("1",end="")
-    for j in range(41,i+41):
-        print(chr(j),end="")
+    print(" "*(n-i),end="")
+    for j in range(1,1+i):
+        print(chr(j+64),end="")
+    if i > 1:
+        for o in range(i-1,0,-1):
+            print(chr(o+64),end="")
+    print()
