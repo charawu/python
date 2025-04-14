@@ -1,5 +1,6 @@
-# python基础教程 {#main-title}
-[toc]
+# python基础教程
+
+- [1.4变量] (#11)
 
 ## 1.python基础语法
 
